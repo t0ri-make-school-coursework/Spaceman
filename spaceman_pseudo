@@ -1,0 +1,18 @@
+print Welcome to Spaceman!
+print Type "help" for instructions at any time.
+select category
+    print Select a category.
+    print categories and their identifier
+    user input category identifier
+print You selected X.  Are you ready to play?
+    if yes, begin game
+    if no, print Would you like to select a different category?
+        if yes, select category
+        if no, print Do you want to play Spaceman?
+            if yes, select category
+            if no, exit
+randomly select word from selected category
+print out underscores for each letter in word
+user input Type a letter to guess
+check if input is a single letter
+check if input letter matches a letter in word
